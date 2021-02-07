@@ -1,0 +1,24 @@
+using System;
+
+
+namespace lab
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int sum=0, sum2=0;
+            Console.WriteLine("even number :");
+            for (int i = 2; i <= 100; i++)
+            {
+                sum += i;
+            }
+            for (int j = 1; j <= 100; j++)
+            {
+                sum2 += j;
+            }
+            Console.WriteLine("even" + sum + "odd" + sum2);
+              
+        }
+    }
+}
